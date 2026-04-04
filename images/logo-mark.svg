@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 62" fill="none">
+  <defs>
+    <linearGradient id="haus" x1="36" y1="6" x2="36" y2="48" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1e4a7a"/>
+      <stop offset="0.45" stop-color="#2563b8"/>
+      <stop offset="1" stop-color="#1d4ed8"/>
+    </linearGradient>
+  </defs>
+  <!-- Hauskörper + Dach als eine Form -->
+  <path
+    d="M36 5 L64 29 V48 H8 V29 L36 5Z"
+    fill="url(#haus)"
+    stroke="#14365c"
+    stroke-width="1.2"
+    stroke-linejoin="round"
+  />
+  <!-- Schornstein (vordergrund) -->
+  <rect x="47" y="10" width="9" height="14" rx="1.2" fill="#14365c" stroke="#0f2d4a" stroke-width="0.5"/>
+  <!-- Fenster -->
+  <rect x="18" y="32" width="12" height="12" rx="1.5" fill="#f0f9ff" stroke="#0ea5e9" stroke-width="1"/>
+  <rect x="42" y="32" width="12" height="12" rx="1.5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1"/>
+  <!-- Linie unter dem Haus -->
+  <path d="M5 50 Q36 58 67 50" stroke="#14365c" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- Marken-Balken -->
+  <rect x="11" y="53.5" width="23" height="6.5" rx="1.5" fill="#2563b8"/>
+  <rect x="38" y="53.5" width="23" height="6.5" rx="1.5" fill="#f97316"/>
+</svg>
